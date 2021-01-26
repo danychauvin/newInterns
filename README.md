@@ -99,7 +99,7 @@ The main programming languages that are used in the laboratory are Python and R.
 
 We use them a lot in the laboratory. You'll learn a bit about them. [Regular expressions (wikipedia)](https://en.wikipedia.org/wiki/Regular_expression)
 
-## Recording/Monitoring lab work
+### Recording/Monitoring lab work
 
 Lab work is organized in projects (that can be porous)...
 
