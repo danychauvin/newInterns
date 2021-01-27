@@ -2,6 +2,8 @@
 
 Dany Chauvin, dany.chauvin@unibas.ch, Biozentrum, Basel
 
+Last modification: 20210127
+
 ## Why this document?
 
 Starting as an intern/PhD in a new laboratory is usually a very unefficient process. Being well, and doing well in a laboratory requires some "know-how" that needs to be learned. Such knowledge encompasses a lot of things from knowing how to contact IT services, to knowing where PBS is stored. Part of this knowledge is laboratory dependent, and part of this knowledge is invariant from one laboratory to the other.
