@@ -183,6 +183,97 @@ Currently, group meeting take place every Thursday from 3 to 5 pm.
 
 Besides group meeting, we also meet for mini-group meeting, where people leading projects are expected to briefly present what they are currently doing.
 
+## Projects you will work on
+
+Here is a list of projects I am currently working on in the laboratory. In the course of your internship, you'll be working with me on these projects too (not necessarily on all of them).
+For each of these projects, I wrote a short context with some references, as well as some ideas for experiments we could do together first, and then that you will do by yourself.
+
+### evanticip
+
+This is the original project we discussed about already. I am simply copying pasting the email I sent to you after we met last time.
+
+#### Context of the project
+
+> As discussed today, the aim of your project will be to investigate the variability of responses to environmental switches, and how this drives the fitness of bacterial populations, in different natural strains ofE.coli.
+
+> In a nutshell, we will grow natural isolates of E. coli in different media, until they reach a stationary phase (i.e until bacteria have consumed all nutrients and are no longer dividing). Then, we'll filter these cultures to keep only the cells, which will be rinsed, and we'll resuspend them in fresh media of different compositions. The output of these experiments will be time traces of culture absorbance, before and after the switch. These data will be analyzed using R to compute "lag times", i.e the time it takes for the cell to resume growth.  We hope to see variability in the way cells resume growth after the switch. A possible extension of this work would be to adapt these experiments to single cell microfluidic experiments so as to establish the relationship between macroscopic and single-cell behaviours during these switches.
+
+> Here are some papers related to this:
+> - Markus Basan's paper illustrating a potential trade-off between lags
+and growth rate. Also interesting from the experimental point of view as
+we plan on using a similar method to switch the cells between media.
+> - Mathias and Thomas' paper on microfludic mother machine experiments
+where single cells are switched from glucose to lactose.
+> - Chris Field's draft on the experimental work he did, growing these
+natural isolates in many conditions.
+> - Thomas' paper on the analysis of the genomes of these natural isolates.
+> Let me know if you have any questions or things you would like to discuss!
+
+#### Experiments
+
+A previous post doc worked quite extensively with these natural isolates. Except that he grew them on solid substrate. Here we are interested in liquid cultures.
+
+I did myself some experiments on this project last year. There are two differences with what is described above: 1) I was switching the cultures from one media to another when the cells where still in exponential phase, 2) I was diluting the cells from one media to another, instead of filtering them.
+
+1) Makes reproducing experiments a bit difficult, cause cells are growing quite fast. Switching them from one medium to another at exactly the same point in growth is hard. Also, cells are growing at different rates, in different media and so have to be switched at different moment... Which makes parralelizing conditions a bit tricky from an experimental point of view.
+
+2) When you dilute cells from one media to another, you not only dilute the cells, but also some media. After the switch, the cells are therefore growing in a mix of media, rather than in a single medium. I could witness that the presence of minute amount of medium 1 in medium 2, was causing the cells to behave differently, compared to medium 2 alone. Hence the idea of filtering instead of diluting!
+
+### constitexpr
+
+This is the main project I am currently working on, and that I am trying to finish. I might need your help on some urgent experiments.
+
+#### Context
+
+E. coli, when growing exponentially, need to maintain protein concentration. But, protein concentration fluctuates, in time in a given cell and also, accross cells. These fluctuations can be so important, that they sometimes lead a fraction of the population to display different phenotype from the rest of the population. This is thought to be beneficial in some fluctuating environments, because this fraction of the population might already be pre-adapted to a future environment.
+
+This shows that it is important to understand what is constraining these fluctuations, to understand how bacterial population adapt to changing environments.
+
+That's what I am trying to do in this project. I am trying to understand in a very simple case, the case of one single GFP gene within the chromosome, how GFP concentration fluctuates. Here this GFP expression is under the control of a single promoter (see below about that). I am trying to understand how and how that generally depends on the **two processes** which are controlling protein concentration.
+
+These two processes are:
+
+- **Expression**: which defines at which speed proteins accumulate in the cytoplasm. This depends on the **promoter activity**. Which can be regulated or not, depending on the growth condition. The variable at stake here is **GFP volumic production**, $q(t)$: how many proteins are produced, during $\deltat$, by a unit of cell volume.
+
+- **Dilution**: when cells grow in size, proteins are diluted. Dilution sets the speed at which proteins are going to be diluted in the cytoplasm. The assumption here is that cells are growing exponentially (which is well supported by our data by the way). The variable here is the **exponential growth rate**, $\lambda(t)$.
+
+In a nutshell, in this project I run mother machine experiments, in different media, with E. coli strains which have a promoter + GFP construct in their chromosome. These strains are all the same, except for their specific promoter that controls GFP expression. And I am trying to measure $q$, $\lambda$ as well as $c_{GFP}$. 
+
+Then I try to understand of $q$ and $\lambda$ fluctuations are setting $c_{GFP}$ fluctuations.
+
+I currently work with 8 promoters. 4 artifical promoters (random sequences, that are showing different level of activity), and 4 ribosomal promoters (they are natural sequences, which control the expression of ribosomal proteins in E. coli).
+
+It turns out that, in my experiments, these promoters all show different behaviours: some have their GFP concentrations that increases, some others have their GFP concentration that go down with the growth rate. And this seems to be controlled by production (by the mean value of $q$).
+
+We currently do not understand why they behave differently, and we are trying to understand how a promoter would behave "by default". One way to do this, is to measure the GFP concentration in cells growing at different growth rate, for many artifical promoters!
+
+Turns out, we have these strains already available in the laboratory.
+
+#### Experiments
+
+Take the E. coli glycerol stocks for these artificial promoters. Grow the cells in different environments, measuring OD and fluorescence while the cells are growing and characterize their concentration as growth rate changes.
+
+How is concentration changing in these different strains?
+
+### monodcurves
+
+In any environment, there is a growth limiting compound. In minimal media + glucose (as long as the concentration of glucose is low), glucose is limiting. Meaning that, if you increase the concentration of glucose, cells will grow faster. More generally, how is growth rate changing with the concentration of such limiting nutrient?
+
+It is thought in general, that bacterial growth rate follow a "Monod curve"[Wikipedia page about the "Monod Curve" and bacterial growth](https://en.wikipedia.org/wiki/Monod_equation).
+
+But, this has been characterized for very few limiting nutrient (such as glucose) and for a limited amount of E. coli strains (E. coli K12), and at the population level.
+
+What's happening at the single cell level then?
+
+#### Experiments
+
+The idea is to perform multiplexed mother machine experiments, in presence of different media, which are composed of different concentrations of growth limiting nutrients.
+
+
+
+
+
+
 
 
 
