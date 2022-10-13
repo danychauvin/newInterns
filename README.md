@@ -236,7 +236,101 @@ login@login10.scicore.unibas.ch
 
 https://services.unibas.ch
 
+## Annexe (to sort afterwards)
 
+Some thoughts from Ben Garcia that I like:
+
+It’s been nearly 15 year of having the privilege to lead my own research group. In this time I’ve had many wonderful scientists pass through. I’ve learned a lot about not just leading a group, but also being a good mentor to younger scientists. While I have not always made 1/
+Traduire le Tweet
+4:46 PM · 12 oct. 2022
+·Twitter Web App
+258
+ Retweets
+69
+ Tweets cités
+1 576
+ J'aime
+.dany
+
+Ben Garcia
+@GarciaLabMS
+·
+21h
+En réponse à 
+@GarciaLabMS
+perfect decisions, here are some suggestions to pass onto anyone thinking of becoming a PI. Additionally, these are things that students/PDs should expect of their PIs as well. 2/
+Ben Garcia
+@GarciaLabMS
+·
+21h
+1. Encourage risk taking and making mistakes. I know this is hard, especially when you need data for pubs and grants, but its crucial for building independent scientists. You learn way more when you fail, so don't be afraid to encourage your students to try difficult things. 3/
+Ben Garcia
+@GarciaLabMS
+·
+21h
+2. Regularly schedule individual and group meetings. Students need consistency, need frequent discussions and encouragement. The group needs to come together as well frequently to hear about research in the lab and see how everyone is working for the overall lab goal. 4/
+Ben Garcia
+@GarciaLabMS
+·
+21h
+3. Complete yearly IDPs to learn about your trainee’s professional and career goals. Take a vested interest in the future careers of your students, not just the progress they are making on the research project. How can you help them reach their professional goals? 5/
+Ben Garcia
+@GarciaLabMS
+·
+21h
+4. Let trainees take off the time they need to recharge and mentally reset when needed. Research is hard, life is harder. Everyone needs to rest and clear this minds, and de-stress. This is so much more important now as the pandemic has wrecked havoc on everyone's lives. 6/
+Ben Garcia
+@GarciaLabMS
+·
+21h
+5. Help them network with other scientists. Take them to conferences and introduce them to all the big name scientists that you can. Include them in conversations with collaborators, so they can build relationships with future colleagues and letter of support writers. 7/
+Ben Garcia
+@GarciaLabMS
+·
+21h
+6. Nominate them for any awards, honors and accolades. Your students work hard, they deserve to reap the benefits as much as PIs do. Never let the chance go by to promote them and nominate them for internal or external honors. It doesn't matter how small the award is. 8/
+Ben Garcia
+@GarciaLabMS
+·
+21h
+7. Talk to them about your struggles as a scientist/PI in a realistic way. Let them know you get stressed too. This will give them a more real picture of you, the scientist and human. We are not superheroes, but have challenges and worries just like everyone else, show them. 9/
+Ben Garcia
+@GarciaLabMS
+·
+21h
+8. Give them an idea of what it takes to be a group leader. Whether they go to academia or industry, they will get a chance to lead one day. Talk to them about lab management, financial considerations, administration, etc. A PI is a small business owner, they should know it. 10/
+Ben Garcia
+@GarciaLabMS
+·
+21h
+9. Resolve conflict as quickly and best that you can. Resentment from unresolved lab issues can ruin a positive environment quickly. As a PI, its not always easy to know about problems right away.Always ask your lab members if there is anything that could be better in the lab.11/
+Ben Garcia
+@GarciaLabMS
+·
+21h
+10. Encourage collaborations in and out of the lab. Working in teams is essential in science, and no one can do it all alone. While everyone should have their own project where they lead it, they should also be encouraged to lend their skills to other projects to gain new exp.12/
+Ben Garcia
+@GarciaLabMS
+·
+21h
+11. Be empathetic and understanding. Setbacks happen in the lab and in life. Be supportive of your students when things out of their control happen and get in the way. Students pour their lives into the work, highlight the knowledge gained when experiments fail. 13/
+Ben Garcia
+@GarciaLabMS
+·
+21h
+12. Encourage strong work life balance. Don't be one of those PIs that make students work weekends, or a certain number of hours per week. Be on the lookout for burnout, and make sure your students are taking care of themselves physically and mentally. 14/
+Ben Garcia
+@GarciaLabMS
+·
+21h
+13. Above all, remember that you are here to mentor and guide them. They are not here to just work for you. Treat them with respect and be ready to help them in any way. PIs can be so influential and life changing for younger scientists, be that type of mentor. Let's go!!  fin/
+Ben Garcia
+@GarciaLabMS
+·
+21h
+En réponse à 
+@GarciaLabMS
+Also make expectations clear at the beginning, about everything. What do you expect from them? What should they expect from you? What kind of mentoring style do you have? Be flexible to adapt your mentoring to the different personalities you will have in the lab.
 
 
 
